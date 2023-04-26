@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="product">
+      <div class="product-small-img">
+        <img src="./wp1877599.webp" alt="" onclick="fun1(this)" />
+        <img
+          src="./1440_900_20101027083130364937.webp"
+          alt=""
+          onclick="fun1(this)"
+        />
+        <img src="./1dsp-20151218-sh016.webp" alt="" onclick="fun1(this)" />
+        <img src="./th.webp" alt="" onclick="fun1(this)" />
+        <img
+          src="./little-girl-shopping-bags-goes-to-store-cute-portrait-kid-child-dress-sunglasses-shoes-near-mall-having-62450579.webp"
+          alt=""
+          width="140px"
+          height="120px"
+          onclick="fun1(this)"
+        />
+      </div>
+
+      <div class="img-containner">
+        <img id="imageBox" src="./wp1877599.webp" alt="" />
+      </div>
+    </div>
+    <script>
+      function fun1(e) {
+        let fullImag = document.getElementById("imageBox");
+        fullImag.src = e.src;
+      }
+    </script>
+  </body>
+</html>
